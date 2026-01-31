@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+.box {
+  background-color: #dcdcdc;
+  color: #222;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+
+.header .box {
+  height: 38px;
+}
+
+.hero .box {
+  height: 120px;
+}
+
+.products .box {
+  height: 60px;
+}
+
+.services .box {
+  height: 48px;
+}
+
+.footer .box {
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .header .box {
+    height: 44px;
+  }
+
+  .hero .box {
+    height: 140px;
+  }
+
+  .products .box {
+    height: 70px;
+  }
+
+  .services .box {
+    height: 58px;
+  }
+
+  .footer .box {
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .header .box {
+    height: 48px;
+  }
+
+  .hero .box {
+    height: 160px;
+  }
+
+  .products .box {
+    height: 80px;
+  }
+
+  .services .box {
+    height: 64px;
+  }
+
+  .footer .box {
+    height: 80px;
+  }
+}
